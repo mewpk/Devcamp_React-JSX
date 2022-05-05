@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Employee {
+        constructor(firstname, lastname, salary) {
+          let _salary = salary; // simulate private variable
+
+          this.firstname = firstname; // public property
+          this.lastname = lastname; // public property
+          this.getSalary = function () {
+            // simulate public method
+            return _salary;
+          };
+        }
+        hello() {
+          // simulate public method
+          console.log("Hello " + this.firstname + "!");
+        }
+      }
+      let dang = new Employee("Dang", "Red", 10000);
+      console.log(dang.firstname); // Dang
+      console.log(dang.lastname); // Red
+      dang.hello(); // Hello Dang!
+      console.log(dang.getSalary()); // 10000
+    </script>
+  </body>
+</html>
