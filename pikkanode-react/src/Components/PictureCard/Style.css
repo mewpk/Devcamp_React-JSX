@@ -1,0 +1,10 @@
+.PictureCard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-item{
+    padding: 100px 100px;
+    text-align: center;
+    align-items: center;
+}

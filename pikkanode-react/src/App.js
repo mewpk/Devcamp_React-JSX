@@ -1,15 +1,17 @@
 
-import './App.css';
+
 import Navbar from './Components/Navbar';
 import Container from './Components/Container';
+import PictureCard from './Components/PictureCard';
 
 function App() {
   return (
-    <>
-      <Container>
-        <Navbar />
-      </Container>
-    </>
+
+    <Container>
+      <Navbar />
+      <PictureCard />
+    </Container>
+
   );
 }
 
