@@ -1,0 +1,9 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: pink;
+    align-items: center;
+}
