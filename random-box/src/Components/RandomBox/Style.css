@@ -1,0 +1,9 @@
+.RandomBox{
+    display: flex;
+    border: solid none;
+    width: fit-content;
+    background-color: green;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 200px;
+}
